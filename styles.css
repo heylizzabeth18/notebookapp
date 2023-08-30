@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+}
+
+.sidebar {
+  flex: 1;
+  padding: 20px;
+  background-color: #9932CC;
+}
+
+.sidebar h2 {
+  margin-top: 0;
+}
+
+.content {
+  flex: 2;
+  padding: 20px;
+}
+
+#noteContent {
+  width: 100%;
+  height: 300px;
+}
+
+#addNoteButton {
+  margin-top: 10px;
+  background-color: azure ;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+li {
+  cursor: pointer;
+  margin-bottom: 5px;
+}
+
+li:hover {
+  text-decoration: underline;
+}
